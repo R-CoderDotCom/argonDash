@@ -48,7 +48,7 @@ argonInfoCard <- function(value, title = NULL, stat = NULL, stat_icon = NULL,
       # upper part
       shiny::fluidRow(
         argonR::argonColumn(
-          shiny::tags$h5(class = paste0("card-title text-uppercase mb-0 ", text_color), title),
+          shiny::tags$h3(class = paste0("card-title text-uppercase mb-0 ", text_color), title),
           shiny::span(class = paste0("h2 font-weight-bold mb-0 ", text_color), value)
         ),
         shiny::tags$div(
