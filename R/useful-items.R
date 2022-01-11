@@ -28,7 +28,7 @@ argonInfoCard <- function(value, title = NULL, stat = NULL, stat_icon = NULL,
   iconCl <- "icon icon-shape text-white rounded-circle shadow"
   if (!is.null(icon_background)) iconCl <- paste0(iconCl, " bg-", icon_background)
   
-  cardCl <- "card card-stats mb-4 mb-xl-0"
+  cardCl <- "card card-stats mb-4"
   if (hover_lift) cardCl <- paste0(cardCl, " card-lift--hover")
   if (shadow) cardCl <- paste0(cardCl, " shadow")
   if (gradient) {
